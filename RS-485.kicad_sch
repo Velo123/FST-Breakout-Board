@@ -1,0 +1,414 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e29d9b21-6844-4fab-b1b7-300fefafc5af")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 69.85 125.73) (xy 69.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a8e943-f4f9-4564-a6d5-9a7ae40c9c38")
+	)
+	(sheet
+		(at 69.85 116.205)
+		(size 48.26 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 88 1.0000)
+		)
+		(uuid "00341936-bbf4-4bdf-8f81-eb954a1ef296")
+		(property "Sheetname" "RS485_PhW"
+			(at 69.85 115.4934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PhW.kicad_sch"
+			(at 69.85 138.3796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PhW_Busy_B" input
+			(at 69.85 135.89 180)
+			(uuid "ae46b67a-d0d3-4d47-8be8-e9b7e9768ae3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PhW_DoutA_B" input
+			(at 69.85 120.65 180)
+			(uuid "e3b87e91-4e1e-4b40-91dd-0486314ab22f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PhW_DoutB_B" input
+			(at 69.85 128.27 180)
+			(uuid "0a1d0f3d-cc89-4bef-98f2-6a2dec326de0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PhW_DoutB_A" input
+			(at 69.85 125.73 180)
+			(uuid "1827f6d8-7f7e-4735-a353-f1fd6d5460bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PhW_DoutB_RO" output
+			(at 118.11 127 0)
+			(uuid "8016344f-c45a-4534-bddc-efbe0345c5ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PhW_DoutA_A" input
+			(at 69.85 118.11 180)
+			(uuid "f6dc992e-9f9a-4717-a595-330499d12d97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PhW_Busy_A" input
+			(at 69.85 133.35 180)
+			(uuid "3f72313e-8dbb-4b5b-9ab0-f31e539ed5a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PhW_DoutA_RO" output
+			(at 118.11 121.92 0)
+			(uuid "16d06f60-bd89-431e-8c15-1f17da004c87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PhW_Busy_RO" output
+			(at 118.11 132.08 0)
+			(uuid "2f1ac55b-2f68-45c1-ba2e-fe71eb049f18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FST-breakout"
+				(path "/6b98887b-b6e8-4123-88e9-3723f2ff3083/7b28d561-4fdb-4b9c-a6fd-c48d64b6234e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 86.995)
+		(size 48.26 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 88 1.0000)
+		)
+		(uuid "3151f0fa-2b2e-4ae5-9fb3-e37be7c182e2")
+		(property "Sheetname" "RS485_PhV"
+			(at 69.85 86.2834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PhV.kicad_sch"
+			(at 69.85 109.1696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PhV_DoutA_RO" output
+			(at 118.11 93.98 0)
+			(uuid "ab9c997e-ba9a-4831-9dbf-2391b0e985db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PhV_DoutA_B" input
+			(at 69.85 91.44 180)
+			(uuid "1bc4209d-d3e0-4546-8313-7f624daf5b4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PhV_DoutA_A" input
+			(at 69.85 88.9 180)
+			(uuid "b05c9078-bbb2-4c1a-accd-1c39f3fdf1dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PhV_DoutB_A" input
+			(at 69.85 96.52 180)
+			(uuid "9c9417ab-3bf7-4e11-8eb2-a61d25dba1bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PhV_Busy_B" input
+			(at 69.85 104.14 180)
+			(uuid "12314950-6477-46c8-94c2-ff1069a9d43f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PhV_DoutB_RO" output
+			(at 118.11 97.79 0)
+			(uuid "90ab1c32-ded7-445a-b50e-326acb6de29c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PhV_Busy_A" input
+			(at 69.85 106.68 180)
+			(uuid "126f28ee-364b-4a75-88cf-dfacc6b12198")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PhV_DoutB_B" input
+			(at 69.85 99.06 180)
+			(uuid "81d5c5d8-8de4-4adf-bc9d-817086289e0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PhV_Busy_RO" output
+			(at 118.11 101.6 0)
+			(uuid "b450b44d-6d67-451d-98f9-67eec988e094")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FST-breakout"
+				(path "/6b98887b-b6e8-4123-88e9-3723f2ff3083/7b28d561-4fdb-4b9c-a6fd-c48d64b6234e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 55.88)
+		(size 48.26 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 88 1.0000)
+		)
+		(uuid "a886feba-55b2-4d83-a738-bd8650fcfa7b")
+		(property "Sheetname" "RS485_PhU"
+			(at 69.85 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PhU.kicad_sch"
+			(at 69.85 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PhU_DoutB_RO" output
+			(at 118.11 66.04 0)
+			(uuid "5769346a-e8ca-45ce-9b0c-9614f96719da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PhU_DoutA_A" input
+			(at 69.85 57.785 180)
+			(uuid "8f5dbbf3-2ca3-4ff3-a926-44d572ec0ce8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PhU_DoutB_B" input
+			(at 69.85 65.405 180)
+			(uuid "e74c5178-26ae-4064-90d2-57c743dc4cdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PhU_DoutB_A" input
+			(at 69.85 67.945 180)
+			(uuid "dc49fc05-fff5-4643-9e36-7b42f9078746")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PhU_Busy_A" input
+			(at 69.85 73.025 180)
+			(uuid "c1cbe651-5f99-45c6-992a-03f87b5c4544")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PhU_DoutA_RO" output
+			(at 118.11 62.23 0)
+			(uuid "0b550e9e-59d8-4bcf-ad01-d8608e0f5121")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PhU_Busy_RO" output
+			(at 118.11 69.85 0)
+			(uuid "11fbc519-2d55-4767-a1d1-2fc1b8fbb9b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PhU_Busy_B" input
+			(at 69.85 75.565 180)
+			(uuid "9e9866c3-e219-4e38-b84b-5a72eeae8110")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PhU_DoutA_B" input
+			(at 69.85 60.325 180)
+			(uuid "9cba7a33-6a67-451d-ad0f-753ef0799bfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "FST-breakout"
+				(path "/6b98887b-b6e8-4123-88e9-3723f2ff3083/7b28d561-4fdb-4b9c-a6fd-c48d64b6234e"
+					(page "7")
+				)
+			)
+		)
+	)
+)
